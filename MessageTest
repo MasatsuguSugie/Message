@@ -1,0 +1,49 @@
+package message;
+
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * This is my message class test for CS 5704 assignment 0.
+ * 
+ * @author sugie
+ * @version 21 Jan 2019
+ */
+public class MessageTest
+{
+    private Message m;
+
+
+    /**
+     * This method sets up a message object.
+     */
+    @Before
+    public void setUp()
+    {
+        m = new Message("Hello World!");
+    }
+
+
+    /**
+     * This method tests the validity of my message class with the desired output.
+     */
+    @Test
+    public void testOne()
+    {
+        assertEquals(m.toString(), "Hello World!");
+    }
+
+
+    /**
+     * This method creates a new message object and tests the validity of my message class with the
+     * desired output.
+     */
+    @Test
+    public void testTwo()
+    {
+        Message w = new Message("Goodnight Moon!");
+        assertEquals(w.toString(), "Goodnight Moon!");
+    }
+
+}
