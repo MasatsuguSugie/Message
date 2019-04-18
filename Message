@@ -1,0 +1,32 @@
+package message;
+
+/**
+ * This is my message class for CS 5704 assignment 0.
+ * 
+ * @author sugie
+ * @version 21 Jan 2019
+ */
+public class Message
+{
+    private String message;
+
+
+    /**
+     * Create a new Message object.
+     * 
+     * @param x
+     *            takes in an entered String.
+     */
+    public Message(String x)
+    {
+        message = x;
+    }
+
+
+    @Override
+    public String toString()
+    {
+        return message;
+    }
+
+}
