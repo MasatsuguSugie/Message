@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * This is my message class test for CS 5704 assignment 0.
+ * This is my message class test.
  * 
  * @author sugie
  * @version 21 Jan 2019
